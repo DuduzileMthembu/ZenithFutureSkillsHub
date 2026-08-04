@@ -1,0 +1,8 @@
+#NOTES
+
+These are my day 1 notes
+-pwd shows current directory
+-ls lists files and folders in a directory
+- cd changes directory
+
+

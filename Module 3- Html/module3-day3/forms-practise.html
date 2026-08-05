@@ -3,12 +3,17 @@
     <head>
         <meta charset="UTF-8">
 
-        <title>ABOUT ME </title>
+        <title>Simple form </title>
         <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
-        <style>form { border: 1px solid #ccc; padding: 20px; }</style>
+        <style>form { border: 1px solid #ccc; padding: 20px; } input { margin-bottom: 10px; }</style>
     </head>
-    <body>  <h1>MY FORM</h1>
-     <P>This is a simple form to collect your information.</P>
+    <body> .
+        <header>
+            <h1>CONTACT US</h1>
+            <p>This is a simple form to collect your information.</p>
+        </header>
+
+        <section>
         <form>
             <label for="name">Name:</label>
             <input type="text" 
@@ -16,27 +21,82 @@
                    name="name"><br><br>
 
             <label for="surname">Surname:</label>
-            <input type="text" id="surname" name="surname"><br><br> 
+            <input type="text" 
+            id="surname" 
+            name="surname"><br><br> 
 
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email"><br><br>
+            <input type="email" 
+            id="email" 
+            name="email"><br><br>
 
             <label for="number">Phone Number:</label>
-            <input type="tel" id="number" name="number"><br><br>
+            <input type="tel"
+             id="number" 
+             name="number"><br><br>
 
             <label for="DOB">Date of Birth:</label>
-            <input type="date" id="DOB" name="DOB"><br><br>
+            <input type="date" 
+            id="DOB" 
+            name="DOB"><br><br>
 
             <Label>Gender</Label><br>
             <label for="gender">Male</label> 
-            <input type="radio" id="male" name="gender" value="male"><br>
+            <input type="radio" 
+            id="male" 
+            name="gender" .
+            value="male"><br>
 
             <label for="gender">Female</label>
-            <input type="radio" id="female" name="gender" value="female"><br><br>
+            <input type="radio" 
+            id="female" 
+            name="gender" 
+            value="female"><br><br>
+
+            <label for="gender">Other</label>
+            <input type="radio" 
+            id="other" 
+            name="gender" 
+            value="other"><br><br>
+
+            <label for="Province">Province:</label>
+            <select id="Province" name="Province">
+                <option>Gauteng</option>
+                <option>Limpopo</option>
+                <option>Mpumalanga</option>
+                <option>North West</option>
+                <option>Free State</option>
+                <option>KwaZulu-Natal</option>
+                <option>Eastern Cape</option>
+                <option>Western Cape</option>
+                <option>Northern Cape</option>
+
             <label for="Age">Age:</label>
-            <input type="number" id="Age" name="Age">
+            <input type="number" 
+            id="Age" 
+            name="Age">
+<p>Programming Languages</p>
+            <input type="checkbox" 
+            id="HTML" 
+            name="language" 
+            value="HTML">
+            <label for="HTML">HTML</label><br>
+
+            <input type="checkbox" 
+            id="CSS" 
+            name="language" 
+            value="CSS">
+            <label for="CSS">CSS</label><br>
+
+            <input type="checkbox" 
+            id="JavaScript" 
+            name="language" 
+            value="JavaScript">
+            <label for="JavaScript">JavaScript</label><br>
 
             <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
         </form>
+        </section>
     </body>
 </html>

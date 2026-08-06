@@ -45,7 +45,52 @@
   <!--This section contains the map showing my location-->
   <h2>Find me on the Map</h2>
   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3575.934036738153!2d28.190770174393727!3d-26.328635369051387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e951befe56422d3%3A0xee610b886e68e1e2!2s109%20Nombhela%20Dr%2C%20Vosloorus%20Ext%205%2C%20Vosloorus%2C%201475!5e0!3m2!1sen!2sza!4v1785841440563!5m2!1sen!2sza" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
-  </section>
+  </section><br><br>
+
+  <section>
+    <h3>Send me a Message</h3>
+
+    <form action="mailto:duduziiley@gmail.com" method="post" enctype="text/plain">
+        
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="surname">Surname:</label>
+        <input type="text" id="surname" name="surname"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br><br>
+
+        <label for ="age">Age:</label>
+        <input type="number" id="age" name="age" min="18" max="80"><br><br>
+
+        <label for="DoB">Date of Birth:</label>
+        <input type="date" id="DoB" name="DoB"><br><br>
+
+        <label for="province">Province:</label>
+        <select dropdown id="province" name="province">
+            <option value="gauteng">Gauteng</option>
+            <option value="kwazulu-natal">KwaZulu-Natal</option>
+            <option value="western-cape">Western Cape</option>
+            <option value="eastern-cape">Eastern Cape</option>
+            <option value="limpopo">Limpopo</option>
+            <option value="mpumalanga">Mpumalanga</option>
+            <option value="north-west">North West</option>
+            <option value="free-state">Free State</option>
+            <option value="northern-cape">Northern Cape</option>
+        </dropdown><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="5" cols="40"></textarea><br><br>
+        <hr>
+
+        
+        <input button type="reset" value="Reset"><br><br>
+        <input button type="submit" value="Submit"><br
+    </form>
 
     <footer>
         <p> &copy; 2026 Duduzile Mthembu. All rights reserved.</p>

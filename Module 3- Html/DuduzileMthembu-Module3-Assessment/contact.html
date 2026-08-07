@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parent Registration - Little Stars Daycare Centre</title>
+  <style>
+     font {font-family: Verdana, Geneva, Tahoma, sans-serif;}
+  nav { background: #d6765e; padding: 5px; }
+    section { min-width: 10px; margin: auto; padding: 20px; }
+    h1 { color: #3dbcd3; text-align: center; }
+    h2 { color: #9130e0 ; text-align: center;}
+    footer { background: #e96c6c; color: white; text-align: center; padding: 5px; }
+    form { background: white; padding: 20px; border-radius: 8px; }
+    label { display: block; margin-top: 10px; font-weight: bold; }
+    input, select, textarea { width: 100%; padding: 10px; margin-top: 5px; border: 1px solid #ccc; border-radius: 4px; }
+    button { background: #2baecc; color: white; padding: 12px; border: none; border-radius: 5px; margin-top: 15px; cursor: pointer; width: 100%; }
+    button:hover { background: #1f8aa3; }
+    footer { background: #333; color: white; text-align: center; padding: 15px; margin-top: 30px; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="about.html">About Us</a> |
+    <a href="programs.html">Programs</a> |
+    <a href="contact.html">Parent Registration</a>
+  </nav>+
+
+  <div class="container">
+    <h1>Parent Registration Form</h1>
+    <p>Fill in this form to book a tour or register your child. We will contact you within 24 hours.</p>
+
+    <form>
+      <h2>Parent/Guardian Details</h2>
+      <label>Full Name</label>
+      <input type="text" name="parent_name" required>
+
+      <label>Phone Number</label>
+      <input type="tel" name="phone" required>
+
+      <label>Email Address</label>
+      <input type="email" name="email" required>
+
+      <h2>Child Details</h2>
+      <label>Child's Full Name</label>
+      <input type="text" name="child_name" required>
+
+      <label>Child's Date of Birth</label>
+      <input type="date" name="dob" required>
+
+      <label>Age Group</label>
+      <select name="age_group" required>
+        <option value="">--Select--</option>
+        <option>Infants: 6 months - 18 months</option>
+        <option>Toddlers: 18 months - 3 years</option>
+        <option>Preschool: 3 years - 5 years</option>
+      </select>
+
+      <label>Special Notes / Allergies</label>
+      <textarea name="notes" rows="3"></textarea>
+
+      <button type="submit">Submit Registration</button>
+    </form>
+
+    <h2>Visit Us</h2>
+    <p><b>Address:</b> 123 Star Street, Soweto, Gauteng, 1804</p>
+    <p><b>Hours:</b> Mon - Fri: 7:00am - 5:30pm</p>
+  </div>
+
+  <footer>
+    <p>Little Stars Daycare Centre | info@littlestarsdaycare.co.za | Call: 011 017 8277</p>
+  </footer>
+</body>
+</html>

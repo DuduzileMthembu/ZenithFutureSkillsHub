@@ -1,0 +1,59 @@
+
+
+/* 1. GLOBAL */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(to bottom, #e0f7fa, #fffaf0);
+  color: #333;
+  line-height: 1.7;
+  font-size: 16px;
+}
+
+main {
+  max-width: 900px;
+  margin: 0px auto;
+  padding: 20px;
+}
+
+/* 2. HEADER / HERO */
+#hero {
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), 
+}
+  color: #ffffff;
+  text-align: center;
+  padding: 80px 20px;
+  border-radius: 0px 0px 20px 20px;
+}
+
+#hero h1 {
+  font-size: 48px;
+  color: #ffeb3b;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.hero-subtitle {
+  font-size: 21px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.hero-intro {
+  font-size: 18px;
+  margin: 8px 0px;
+  font-style: italic;
+}
+
+/* 3. HEADINGS */
+h2 {
+  color: #0277bd;
+  font-size: 32px;
+  margin: 30px 0px
+}

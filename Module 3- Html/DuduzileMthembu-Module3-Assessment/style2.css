@@ -1,0 +1,164 @@
+/* ===== LITTLE STARS DAYCARE - STYLE.CSS ===== */
+
+/* 1. GLOBAL STYLES */
+body { 
+  font-family: 'Arial', sans-serif; 
+  margin: 0; 
+  background: #fffaf0; /* warm cream background */
+  color: #333; 
+  line-height: 1.6;
+}
+
+
+h1 { 
+  color: #ff9f1c; /* bright orange - main heading */
+  text-align: center;
+}
+
+h2 { 
+  color: #2baecc; /* sky blue - sub headings */
+}
+
+h3 {
+  color: #2baecc;
+}
+
+/* 2. NAVIGATION BAR */
+nav { 
+  background: #ff9f1c; /* orange */
+  padding: 15px; 
+  text-align: center; 
+  
+}
+
+nav a:hover { 
+  text-decoration: underline; 
+  color: #ffe9c7; /* light yellow on hover */
+}
+
+/* 3. HERO SECTION - HOME PAGE */
+.hero { 
+  text-align: center; 
+  padding: 40px 20px; 
+  background: #ffe9c7; /* light orange */
+  border-radius: 10px; 
+  margin-bottom: 30px;
+}
+
+.hero img { 
+  width: 100%; 
+  max-width: 600px; 
+  border-radius: 10px; 
+  margin: 20px 0;
+}
+
+/* 4. BUTTONS */
+.btn { 
+  background: #2baecc; /* blue */
+  color: white; 
+  padding: 12px 25px; 
+  text-decoration: none; 
+  border-radius: 5px; 
+  display: inline-block; 
+  margin-top: 10px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #1f8aa3; /* darker blue */
+  transform: translateY(-2px);
+}
+
+/* 5. CARDS - FOR PROGRAMS PAGE */
+.card { 
+  background: white; 
+  padding: 15px; 
+  margin: 10px 0; 
+  border-left: 5px solid #2baecc; /* blue accent */
+  border-radius: 5px; 
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+/* 6. TABLE - DAILY ROUTINE */
+table { 
+  width: 100%; 
+  border-collapse: collapse; 
+  margin-top: 15px; 
+  background: white;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+th, td { 
+  border: 1px solid #ddd; 
+  padding: 10px; 
+  text-align: left; 
+}
+
+th { 
+  background: #ffe9c7; /* light orange */
+  color: #333;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background: #fdfdfd;
+}
+
+/* 7. FORM - CONTACT PAGE */
+form { 
+  background: white; 
+  padding: 20px; 
+  border-radius: 8px; 
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+label { 
+  display: block; 
+  margin-top: 10px; 
+  font-weight: bold; 
+  color: #555;
+}
+
+input, select, textarea { 
+  width: 100%; 
+  padding: 10px; 
+  margin-top: 5px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: none;
+  border-color: #2baecc;
+}
+
+button { 
+  background: #2baecc; /* blue */
+  color: white; 
+  padding: 12px; 
+  border: none; 
+  border-radius: 5px; 
+  margin-top: 15px; 
+  cursor: pointer; 
+  width: 100%; 
+  font-size: 16px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+button:hover { 
+  background: #1f8aa3; /* darker blue */ 
+}
+
+/* 8. FOOTER */
+footer { 
+  background: #333; /* dark gray */
+  color: white; 
+  text-align: center; 
+  padding: 15px; 
+  margin-top: 30px; 
+}

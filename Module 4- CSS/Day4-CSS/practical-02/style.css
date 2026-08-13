@@ -1,0 +1,361 @@
+/* ===== ZENITH COMMUNITY CENTRE - MATCH DESIGN ===== */
+
+/* GLOBAL */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+  background: #ffffff;
+}
+
+/*  HEADER — .navbar */
+.navbar {
+  background: #0a1e3a;
+  padding: 18px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0px auto;
+}
+
+/*  LOGO — .logo */
+.logo {
+  width: 200px;
+  height: auto;
+}
+
+/*  NAVIGATION — .nav */
+.nav {
+  display: flex;
+  gap: 35px;
+}
+
+/*  NAVIGATION LINKS — .nav a */
+.nav a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.nav a:hover, .nav a:first-child {
+  color: #3a9d23; /* green for Home + hover */
+}
+
+/* DONATE BUTTON — .donate-button */
+.donate-button {
+  background: #3a9d23; /* green button */
+  color: #ffffff;
+  padding: 10px 22px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
+  
+}
+
+.donate-button:hover {
+  background: #2e7d1a;
+}
+
+/* F. HERO — .hero */
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  padding: 80px 60px;
+  max-width: 1400px;
+  margin: 0px auto;
+  background: #f8fbfd; /* very light blue */
+}
+
+/* G. HERO TEXT — .hero-text */
+.hero-text {
+  width: 45%;
+}
+
+/* H. HERO HEADING — .hero-text h1 */
+.hero-text h1 {
+  font-size: 46px;
+  color: #0a1e3a; /* dark navy */
+  margin-bottom: 20px;
+  line-height: 1.2;
+  font-weight: 800;
+}
+
+/* I. HERO PARAGRAPH — .hero-text p */
+.hero-text p {
+  font-size: 17px;
+  margin-bottom: 30px;
+  color: #444444;
+  line-height: 1.6;
+}
+
+/* J. GET INVOLVED BUTTON — .main-button */
+.main-button {
+  background: #3a9d23; /* green */
+  color: #ffffff;
+  padding: 14px 28px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.main-button:hover {
+  background: #2e7d1a;
+}
+
+/* K. HERO IMAGE — .hero-image and .hero-image img */
+.hero-image {
+  width: 55%;
+  max-width: 1000px ;
+}
+
+.hero-image img {
+  width: 100%;
+  border-radius: 0px; 
+}
+
+/*  PROGRAMS — .programs */
+.programs {
+  padding: 70px 60px;
+  max-width: 1400px;
+  margin: 0px auto;
+  text-align: center;
+}
+
+/*  PROGRAMS HEADING — .programs h2 */
+.programs h2 {
+  color: #0a1e3a;
+  font-size: 34px;
+  margin-bottom: 50px;
+  font-weight: 700;
+}
+
+/*  PROGRAM GRID — .program-grid */
+.program-grid {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/*  PROGRAM CARD — .program-card */
+.program-card {
+  width: 270px;
+  padding: 30px 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  background: #ffffff;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.program-card:hover {
+  box-shadow: 0px 6px 15px rgba(0,0,0,0.08);
+  transform: translateY(-3px);
+}
+
+/*  PROGRAM ICON — .program-icon */
+.program-icon {
+  width: 60px;
+  height: 60px;
+  background: #e8f5e9; /* light green circle */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  margin: 0px auto 20px;
+  color: #3a9d23;
+}
+
+/* PROGRAM CARD HEADING */
+.program-card h3 {
+   font-size: 19px;
+  color: #0a1e3a;
+  margin-bottom: 12px;
+  font-weight: 700;
+}
+
+.program-card p {
+  font-size: 15px;
+  color: #666666;
+  line-height: 1.6;
+}
+
+/*  NEWSLETTER — .newsletter */
+.newsletter {
+  background: #e8f5e9; /* light green background */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  padding: 30px 40px;
+  border-radius: 10px;
+  max-width: 1200px;
+  margin: 0px auto 70px;
+  flex-direction: column; 
+  padding: 30px 20px; 
+}
+
+.newsletter-text {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.newsletter-text: {
+  content: "✉";
+  font-size: 40px;
+  background: #3a9d23;
+  color: #ffffff;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.newsletter-text h2 {
+  color: #0a1e3a;
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+
+.newsletter-text p {
+  color: #444444;
+  font-size: 15px;
+}
+
+/*  NEWSLETTER FORM — .newsletter form */
+.newsletter form {
+  display: flex;
+  gap: 10px;
+}
+
+/*  EMAIL INPUT — .newsletter input */
+.newsletter input {
+  width: 350px;
+  padding: 12px 16px;
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.newsletter input:focus {
+  border: 2px solid #3a9d23;
+  outline: none;
+}
+
+/*  SUBSCRIBE BUTTON — .newsletter button */
+.newsletter button {
+  background: #3a9d23;
+  color: #ffffff;
+  padding: 12px 30px;
+  border-radius: 6px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.newsletter button:hover {
+  background: #2e7d1a;
+}
+
+/*footer*/
+.footer {
+  background: #0a1e3a; /* dark navy */
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 50px;
+  max-width: 1400px;
+  margin: 0px auto;
+  padding: 50px 20px; 
+}
+
+/*  FOOTER COLUMN */
+.footer-column {
+  width: 23%;
+  display: flex;
+  flex-direction: column;
+  
+
+}
+
+/*  FOOTER HEADING */
+.footer h3 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+/* FOOTER TEXT — .footer p */
+.footer p {
+  font-size: 15px;
+  margin-bottom: 10px;
+  color: #cccccc;
+  line-height: 1.6;
+}
+
+/* FOOTER LOGO — .footer-logo */
+.footer-logo {
+  width: 200px;
+  margin-bottom: 15px;
+}
+
+.footer .donate-button {
+  margin-top: 15px;
+  display: inline-block;
+}
+
+/*footer*/
+.footer-column div {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 15px;
+  width: 35px;
+}
+
+/* AA. COPYRIGHT — .copyright */
+.copyright {
+  background: #0a1e3a;
+  color: #999999;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  border-top: 1px solid #1a2f4f;
+  max-width: 1400px;
+  margin: 0px auto;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1000px) 
+    
+}
+  .hero-text, .hero-image { 
+   width: 100%; 
+}
+
+
+  

@@ -1,5 +1,7 @@
 /* ===== ZENITH COMMUNITY CENTRE - MATCH DESIGN ===== */
 
+/* ===== ZENITH COMMUNITY CENTRE - MATCH DESIGN ===== */
+
 /* GLOBAL */
 * {
   margin: 0px;
@@ -16,7 +18,7 @@ body {
 
 /*  HEADER — .navbar */
 .navbar {
-  background: #0a1e3a;
+  background: #0a1e3a; /* dark navy blue from image */
   padding: 18px 60px;
   display: flex;
   justify-content: space-between;
@@ -25,13 +27,13 @@ body {
   margin: 0px auto;
 }
 
-/*  LOGO — .logo */
+/* LOGO — .logo */
 .logo {
   width: 200px;
   height: auto;
 }
 
-/*  NAVIGATION — .nav */
+/*NAVIGATION — .nav */
 .nav {
   display: flex;
   gap: 35px;
@@ -50,7 +52,7 @@ body {
   color: #3a9d23; /* green for Home + hover */
 }
 
-/* DONATE BUTTON — .donate-button */
+/*DONATE BUTTON — .donate-button */
 .donate-button {
   background: #3a9d23; /* green button */
   color: #ffffff;
@@ -59,17 +61,16 @@ body {
   text-decoration: none;
   font-weight: bold;
   font-size: 15px;
-  
+  transition: 0.3s;
 }
 
 .donate-button:hover {
   background: #2e7d1a;
 }
 
-/* F. HERO — .hero */
+/*  HERO — .hero */
 .hero {
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   gap: 50px;
@@ -79,12 +80,12 @@ body {
   background: #f8fbfd; /* very light blue */
 }
 
-/* G. HERO TEXT — .hero-text */
+/* HERO TEXT — .hero-text */
 .hero-text {
   width: 45%;
 }
 
-/* H. HERO HEADING — .hero-text h1 */
+/*  HERO HEADING — .hero-text h1 */
 .hero-text h1 {
   font-size: 46px;
   color: #0a1e3a; /* dark navy */
@@ -93,7 +94,7 @@ body {
   font-weight: 800;
 }
 
-/* I. HERO PARAGRAPH — .hero-text p */
+/*  HERO PARAGRAPH — .hero-text p */
 .hero-text p {
   font-size: 17px;
   margin-bottom: 30px;
@@ -101,7 +102,7 @@ body {
   line-height: 1.6;
 }
 
-/* J. GET INVOLVED BUTTON — .main-button */
+/* GET INVOLVED BUTTON — .main-button */
 .main-button {
   background: #3a9d23; /* green */
   color: #ffffff;
@@ -118,10 +119,9 @@ body {
   background: #2e7d1a;
 }
 
-/* K. HERO IMAGE — .hero-image and .hero-image img */
+/*  HERO IMAGE — .hero-image and .hero-image img */
 .hero-image {
   width: 55%;
-  max-width: 1000px ;
 }
 
 .hero-image img {
@@ -183,10 +183,10 @@ body {
   color: #3a9d23;
 }
 
-/* PROGRAM CARD HEADING */
+/*  PROGRAM CARD HEADING — .program-card h3 */
 .program-card h3 {
-   font-size: 19px;
   color: #0a1e3a;
+  font-size: 19px;
   margin-bottom: 12px;
   font-weight: 700;
 }
@@ -208,8 +208,6 @@ body {
   border-radius: 10px;
   max-width: 1200px;
   margin: 0px auto 70px;
-  flex-direction: column; 
-  padding: 30px 20px; 
 }
 
 .newsletter-text {
@@ -218,7 +216,7 @@ body {
   gap: 15px;
 }
 
-.newsletter-text: {
+.newsletter-text::before {
   content: "✉";
   font-size: 40px;
   background: #3a9d23;
@@ -262,7 +260,7 @@ body {
   outline: none;
 }
 
-/*  SUBSCRIBE BUTTON — .newsletter button */
+/*  SUBSCRIBE BUTTON  */
 .newsletter button {
   background: #3a9d23;
   color: #ffffff;
@@ -279,29 +277,25 @@ body {
   background: #2e7d1a;
 }
 
-/*footer*/
+/* FOOTER  */
 .footer {
   background: #0a1e3a; /* dark navy */
   color: #ffffff;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
   gap: 50px;
+  padding: 60px 60px 40px;
   max-width: 1400px;
   margin: 0px auto;
-  padding: 50px 20px; 
 }
 
-/*  FOOTER COLUMN */
+/* FOOTER COLUMN — .footer-column */
 .footer-column {
   width: 23%;
-  display: flex;
-  flex-direction: column;
-  
-
 }
 
-/*  FOOTER HEADING */
+/*  FOOTER HEADING  */
 .footer h3 {
   font-size: 18px;
   margin-bottom: 20px;
@@ -309,7 +303,7 @@ body {
   font-weight: 700;
 }
 
-/* FOOTER TEXT — .footer p */
+/*  FOOTER TEXT */
 .footer p {
   font-size: 15px;
   margin-bottom: 10px;
@@ -317,7 +311,7 @@ body {
   line-height: 1.6;
 }
 
-/* FOOTER LOGO — .footer-logo */
+/*  FOOTER LOGO */
 .footer-logo {
   width: 200px;
   margin-bottom: 15px;
@@ -328,13 +322,11 @@ body {
   display: inline-block;
 }
 
-/*footer*/
+/* SOCIAL ICONS */
 .footer-column div {
   display: flex;
-  flex-direction: column;
   gap: 15px;
   margin-top: 15px;
-  width: 35px;
 }
 
 /* AA. COPYRIGHT — .copyright */
@@ -350,12 +342,30 @@ body {
 }
 
 /* RESPONSIVE */
-@media (max-width: 1000px) 
-    
+@media (max-width: 1000px)                   
+  .hero {
+   flex-direction: column; 
+   padding: 50px 20px; 
 }
   .hero-text, .hero-image { 
    width: 100%; 
 }
-
-
-  
+  .navbar { 
+   padding: 18px 20px; 
+}
+  .programs, .footer { 
+   padding: 50px 20px; 
+}
+  .newsletter { 
+   flex-direction: column; 
+   padding: 30px 20px; 
+}
+  .newsletter input { 
+   width: 100%; 
+}
+  .footer { 
+   flex-direction: column; 
+}
+  .footer-column { 
+   width: 100%; 
+}

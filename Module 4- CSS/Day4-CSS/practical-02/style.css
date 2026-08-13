@@ -121,7 +121,7 @@ body {
 
 /*  HERO IMAGE — .hero-image and .hero-image img */
 .hero-image {
-  width: 55%;
+  width: 58%;
 }
 
 .hero-image img {
@@ -284,6 +284,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: flex-start ;
   gap: 50px;
   padding: 60px 60px 40px;
   max-width: 1400px;
@@ -293,6 +294,7 @@ body {
 /* FOOTER COLUMN — .footer-column */
 .footer-column {
   width: 23%;
+  
 }
 
 /*  FOOTER HEADING  */
@@ -341,31 +343,3 @@ body {
   margin: 0px auto;
 }
 
-/* RESPONSIVE */
-@media (max-width: 1000px)                   
-  .hero {
-   flex-direction: column; 
-   padding: 50px 20px; 
-}
-  .hero-text, .hero-image { 
-   width: 100%; 
-}
-  .navbar { 
-   padding: 18px 20px; 
-}
-  .programs, .footer { 
-   padding: 50px 20px; 
-}
-  .newsletter { 
-   flex-direction: column; 
-   padding: 30px 20px; 
-}
-  .newsletter input { 
-   width: 100%; 
-}
-  .footer { 
-   flex-direction: column; 
-}
-  .footer-column { 
-   width: 100%; 
-}

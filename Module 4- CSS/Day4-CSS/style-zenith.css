@@ -1,0 +1,46 @@
+/*variables*/
+
+:root{
+    --primary-color:red;
+    --primary-bg-color: #333;
+    --spacing: 20px;
+    --light-color: lightgreen;
+
+
+}
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: instrument,serif;
+    color: #333;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: var(--light-color);
+}
+.logo{
+    color: var(--primary-color);
+    font-style: normal;
+    font-weight: bold;
+}
+#programmes{
+    padding: 60px 20px;
+    text-align: center;
+    font-size: 32px;
+    color: var(--primary-color);
+}
+#hero{
+    display: flex;
+    flex wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    gap: var(--spacing)
+}
+.btn{
+    color: var(--light-color);
+}

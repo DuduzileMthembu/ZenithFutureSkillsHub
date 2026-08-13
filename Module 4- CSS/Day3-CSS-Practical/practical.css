@@ -32,7 +32,7 @@ main {
   border: 4px solid #ffeb3b;
   border-radius: 20px;
   margin: 30px auto;
-  max-width: 500px;
+  max-width: 1000px;
 }
 
 #hero h1 {
@@ -76,7 +76,7 @@ h3 {
   border: 3px solid #0277bd;
   border-radius: 15px;
   background: #ffffff;
-  max-width: 800px;
+  max-width: 500px;
 }
 
 #introduction .highlight {
@@ -100,7 +100,7 @@ h3 {
 }
 
 .destination {
-  width: calc(25% - 10px);
+  width: calc(25% 30px);
   padding: 20px;
   margin: 0px;
   border: 3px solid #0277bd;
@@ -117,7 +117,7 @@ h3 {
 /* 5. ACTIVITIES SECTION */
 #activities { /* id=activities */
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: flex-start;
   align-items: stretch;
   gap: 15px;

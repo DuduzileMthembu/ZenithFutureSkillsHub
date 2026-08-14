@@ -1,13 +1,13 @@
 /* ===== MY DREAM ESCAPE - CAPE TOWN CSS ===== */
 
-/* 7. BOX SIZING */
+/*  BOX SIZING */
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
 }
 
-/* 6. MAIN CONTENT WIDTH */
+/*  MAIN CONTENT WIDTH */
 body {
   font-family: 'Segoe UI', Arial, sans-serif;
   background: linear-gradient(to bottom, #e0f7fa, #fffaf0);
@@ -23,7 +23,7 @@ main {
   padding: 30px 20px;
 }
 
-/* 1. HERO SECTION */
+/* HERO SECTION */
 #hero {
   background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45));              
   color: #ffffff;

@@ -2,7 +2,10 @@
 
 /* ===== ZENITH COMMUNITY CENTRE - MATCH DESIGN ===== */
 
-/* GLOBAL */
+:root{
+  --primary-bg-color:#ffffff;
+
+}
 * {
   margin: 0px;
   padding: 0px;
@@ -13,7 +16,7 @@ body {
   font-family: 'Segoe UI', Arial, sans-serif;
   font-size: 16px;
   color: #333;
-  background: #ffffff;
+  background:var(--primary-bg-color);
 }
 
 /*  HEADER — .navbar */
@@ -42,7 +45,7 @@ body {
 /*  NAVIGATION LINKS — .nav a */
 .nav a {
   text-decoration: none;
-  color: #ffffff;
+  color: var(--primary-bg-color);
   font-size: 16px;
   font-weight: 500;
   transition: 0.3s;
@@ -55,7 +58,7 @@ body {
 /*DONATE BUTTON — .donate-button */
 .donate-button {
   background: #3a9d23; /* green button */
-  color: #ffffff;
+  color:var(--primary-bg-color);
   padding: 10px 22px;
   border-radius: 6px;
   text-decoration: none;
@@ -105,7 +108,7 @@ body {
 /* GET INVOLVED BUTTON — .main-button */
 .main-button {
   background: #3a9d23; /* green */
-  color: #ffffff;
+  color: var(--primary-bg-color);
   padding: 14px 28px;
   border-radius: 6px;
   text-decoration: none;
@@ -126,6 +129,7 @@ body {
 
 .hero-image img {
   width: 100%;
+  height: auto;
   border-radius: 0px; 
 }
 
@@ -159,7 +163,7 @@ body {
   padding: 30px 20px;
   border: 1px solid #e0e0e0;
   border-radius: 10px;
-  background: #ffffff;
+  background:var(--primary-bg-color);
   text-align: center;
   transition: 0.3s;
 }
@@ -220,7 +224,7 @@ body {
   content: "✉";
   font-size: 40px;
   background: #3a9d23;
-  color: #ffffff;
+  color: var(--primary-bg-color);
   width: 55px;
   height: 55px;
   border-radius: 50%;
@@ -263,7 +267,7 @@ body {
 /*  SUBSCRIBE BUTTON  */
 .newsletter button {
   background: #3a9d23;
-  color: #ffffff;
+  color: var(--primary-bg-color);
   padding: 12px 30px;
   border-radius: 6px;
   border: none;
@@ -280,7 +284,7 @@ body {
 /* FOOTER  */
 .footer {
   background: #0a1e3a; /* dark navy */
-  color: #ffffff;
+  color: var(--primary-bg-color);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -301,7 +305,7 @@ body {
 .footer h3 {
   font-size: 18px;
   margin-bottom: 20px;
-  color: #ffffff;
+  color:var(--primary-bg-color);
   font-weight: 700;
 }
 

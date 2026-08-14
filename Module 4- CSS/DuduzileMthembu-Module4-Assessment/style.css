@@ -1,0 +1,316 @@
+/* CSS ASSESSMENT
+   Complete this stylesheet using your CSS notes
+   and the reference screenshot.
+
+   Use only CSS concepts covered in Module 4.
+*/
+
+
+/* COLOR PALETTE VARIABLES */
+:root{: #163A6A;
+  --green: #28A745;
+  --light-green: #EAF7EE;
+  --light-gray: #F4F6F8;
+  --white: #FFFFFF;
+  --footer-blue: #0B2A4A;
+  --dark-text: #333333;
+  --light-border: #D9E1E6;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: var(--dark-text);
+  background: var(--white);
+  line-height: 1.6;
+}
+
+/* NAVIGATION */
+.navbar {
+  background-color: var(--white);
+  padding: 20px 60px;
+  display: flex; /* Arrange logo, nav, button */
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid var(--light-border);
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+/* Style the logo */
+.logo {
+  width: 180px;
+  height: auto;
+}
+
+/* Arrange the navigation links */
+.nav {
+  display: flex;
+  gap: 30px;
+}
+
+/* Style the nav links */
+.nav a {
+  text-decoration: none;
+  color: var(--dark-blue);
+  font-weight: bold;
+  font-size: 16px;
+  padding: 10px 15px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+/* Add a simple hover background colour */
+.nav a:hover {
+  background-color: var(--light-green);
+  color: var(--green);
+}
+
+/* Style the Book Now button */
+.book-button {
+  background-color: var(--green);
+  color: var(--white);
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.book-button:hover {
+  background-color: var(--dark-blue);
+}
+
+/* 2. HERO SECTION */
+.hero {
+  display: flex; /* Arrange text and image */
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  padding: 60px;
+  max-width: 1200px;
+  margin: 30px auto;
+  background-color: var(--light-gray);
+  border-radius: 10px;
+}
+
+/* Control text width */
+.hero-text {
+  width: 50%;
+}
+
+/* Style the heading */
+.hero-text h1 {
+  font-size: 42px;
+  color: var(--dark-blue);
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+/* Style the paragraph */
+.hero-text p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: var(--dark-text);
+}
+
+/* Service button */
+.main-button {
+  background-color: var(--green);
+  color: var(--white);
+  padding: 15px 30px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 17px;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.main-button:hover {
+  background-color: var(--dark-blue);
+}
+
+
+.hero-image {
+  width: 50%;
+}
+
+.hero-image img {
+  width: 100%;
+  border: 3px solid var(--light-border);
+  border-radius: 10px;
+
+}
+
+/* 3. OUR SERVICES */
+.services {
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: 0px auto;
+  text-align: center;
+  background-color: var(--white);
+}
+
+.services h2 {
+  font-size: 34px;
+  color: var(--dark-blue);
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+/* Arrange the three service boxes */
+.service-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+/* Styling the service card */
+.service-card {
+  width: 30%; 
+  padding: 25px;
+  border: 2px solid var(--light-border);
+  border-radius: 10px;
+  background-color: var(--light-green);
+  text-align: left;
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  transition: 0.3s;
+}
+
+/* hover background colour */
+.service-card:hover {
+  background-color: var(--light-gray);
+  border-color: var(--green);
+}
+
+/* Style the service emojis*/
+.service-icon {
+  font-size: 40px;
+  background-color: var(--green);
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--light-border);
+  flex-shrink: 0;
+}
+
+.service-card h3 {
+  color: var(--dark-blue);
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.service-card p {
+  color: var(--dark-text);
+  font-size: 15px;
+
+
+}
+
+/* 4. BOOKING SECTION */
+.booking {
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  padding: 40px 60px;
+  max-width: 1200px;
+  margin: 40px auto;
+  background-color: var(--green);
+  border-radius: 10px;
+  color: var(--white);
+}
+
+.booking h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.booking p {
+  font-size: 17px;
+}
+
+.contact-button {
+  background-color: var(--white);
+  color: var(--green);
+  padding: 15px 30px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 17px;
+  transition: 0.3s;
+  white-space: nowrap;
+}
+
+.contact-button:hover {
+  background-color: var(--light-green);
+}
+
+/* 5. FOOTER */
+.footer {
+  background-color: var(--footer-blue);
+  color: var(--white);
+  display: flex; 
+  justify-content: space-between;
+  gap: 40px;
+  padding: 60px;
+  max-width: 1200px;
+  margin: 0px auto;
+  border-radius: 10px 10px 0px 0px;
+}
+
+/* Give each column width */
+.footer-column {
+  width: 23%;
+}
+
+/* Style the logo */
+.footer-logo {
+  width: 160px;
+  margin-bottom: 15px;
+  background-color: var(--dark-blue);
+}
+
+/* Style the headings */
+.footer h3 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: var(--white);
+  font-weight: bold;
+}
+
+/* Style the text */
+.footer p {
+  font-size: 15px;
+  margin-bottom: 10px;
+  color: var(--light-border);
+  line-height: 1.7;
+}
+
+/* COPYRIGHT SECTION */
+.copyright {
+  background-color: var(--footer-blue);
+  color: var(--light-border);
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  max-width: 1200px;
+  margin: 0px auto;
+  border-top: 1px solid var(--dark-blue);
+}
+

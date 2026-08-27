@@ -17,6 +17,8 @@ console.log('Gender: '+ MyPet.Gender);
 console.log('Breed: '+ MyPet.Breed);
 console.log('Coat: ' + MyPet.Coat);
 console.log('Immunization: ' + MyPet.Immunization);
-console.log('Food Cost: ' + "-R" + FoodCost);
+console.log('=============COST===============');
+console.log('Food Cost: ' + "R" + FoodCost);
+
 }
 displayMyPet(MyPet);

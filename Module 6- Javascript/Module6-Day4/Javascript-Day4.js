@@ -32,6 +32,6 @@ console.log('==========ALL BIRTHDAYS==========');
 
 for (let[name, date] of Birthdays){
 
-console.log( name +'s'+  'birthday: '+ date);
+console.log( name +'s' +  ' birthday: '+ date);
 console.log('========================');
 }

@@ -7,12 +7,13 @@ print('==========20 Seconds Core Workout=========')
 print('Ready?!')
 print('Set!')
 print('GO!!')
-
+print('===========================================')
 def countdown(seconds):
     while seconds > 0 :
         print("Time Remaining : ", seconds)
         time.sleep(1)
         seconds -= 1
+    print(" ")   
     print("WELL DONE!!")
     print("Workout Complete!")
 

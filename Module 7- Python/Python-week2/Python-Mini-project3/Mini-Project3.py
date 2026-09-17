@@ -17,6 +17,7 @@ def countdown(seconds):
     print("WELL DONE!!")
     print("Workout Complete!")
 
-print("Today's Date : ", datetime.now())
+  print("Today's Date : ", datetime.now())
 
 countdown(20)
+

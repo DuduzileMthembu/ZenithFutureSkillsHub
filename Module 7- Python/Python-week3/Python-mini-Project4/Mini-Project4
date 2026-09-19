@@ -1,0 +1,17 @@
+#My Journal Application
+
+print("My Daily Journal")
+note = input("Enter your journal entry: ")
+file = open("notes.txt", "a")
+file.write(note + "\n")
+file.close()
+
+print("Journal Entry Saved Successfully!")
+
+#Reading my journal
+file = open("notes.txt", "r")
+
+print("\n============My Saved Journal Entries=============")
+print(file.read())
+
+file.close()

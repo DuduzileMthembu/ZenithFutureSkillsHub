@@ -1,0 +1,14 @@
+student1 = Student("Lindo", 100, "Programming")
+student2 = Student("Sipho", 101, "Programming")
+student3 = Student("Thabo", 102, "Programming")
+student4 = Student("Bongani", 103, "Computer science")
+
+students=[]
+students.append(student1)
+students.append(student2)
+students.append(student3)
+
+for student in students:
+    student.display_student_info()
+
+student1.display_student_info()

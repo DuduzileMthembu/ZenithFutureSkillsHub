@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "title": "Two two",
+        "author": "george",
+        "borrowed": false
+    },
+    {
+        "id": 2,
+        "title": "bed bath",
+        "author": "rei nkuna",
+        "borrowed": false
+    },
+    {
+        "id": 3,
+        "title": "deed in",
+        "author": "fear",
+        "borrowed": false
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "name": "mary",
+        "student_number": 122,
+        "course": "write",
+        "marks": [
+            56.0
+        ],
+        "assignment_deadline": "2026-09-12",
+        "attendance": 2
+    }
+]
